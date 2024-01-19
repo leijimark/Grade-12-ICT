@@ -112,7 +112,7 @@ video{
 
 .body{
     word-wrap: break-word;
-    background-image: url(/Individual-project1/images/hotel.jpg);
+    background-image: url(../images/hotel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
