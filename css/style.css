@@ -1,0 +1,381 @@
+html{
+    word-wrap: break-word;
+}
+.kowts{
+    margin-top: 10%;
+    width: fit-content;
+    padding: 50px;
+    margin-left: 10px;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.724);
+}
+.body1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/hotel.jpg);
+    height: 97.6vh;
+}
+.header  {
+    text-align: center;
+    word-wrap: break-word;
+    word-spacing: 200px;
+}
+.shown  {
+    position: relative;
+    display: inline-block;
+    font-family: cursive;
+}
+
+/* home */
+a{
+    text-decoration: none;
+    color: black;
+}
+.home {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* contact */
+.contact{
+    cursor: pointer;
+}
+
+/* gallery */
+
+.gallery{
+    cursor: pointer;
+}
+.link {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(212, 223, 220);
+}
+.link a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 1px;
+    transition: 1s;
+    transition-property: font-size;
+}
+.shown:hover .link{  
+    display: block;
+}
+.link a:hover {
+    background: transparent;
+    font-size: 20px;
+}
+
+/* outputs */
+.outputs{
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* marco */
+
+.marco  {
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 40px;
+    margin-right: 40px;
+    animation-name: color;
+    animation-duration: 5s;
+    color: red;
+    animation-iteration-count: infinite;
+}
+.name{
+    font-size: 15px;
+    animation-name: color;
+    animation-duration: 5s;
+    color: red;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    100% {color: red;}
+    80% {color: pink;}
+    60% {color: blue;}
+    40% {color: yellow;}
+    20% {color: green;}
+}
+
+/* css for main */
+video{
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 330px;
+}
+
+/* css for resume */
+
+.body{
+    word-wrap: break-word;
+    background-image: url(/Individual-project1/images/hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bulaklak{
+    float: right;
+    width: 100px;
+    height: 120px;
+    border-radius: 20px;
+    border-style: solid;
+}
+.mail{
+    color: #CBD18F;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+.div{
+    background-color:  #3A6B35;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 40px;
+    padding: 20px;
+    border-color: #E3B448;
+}
+.namee{
+    color: #E3B448;
+}
+.small3{
+    position: relative; bottom: 20px; 
+    color: #CBD18F;
+}
+.skills{
+    font-size: 25px;
+    color: #E3B448;
+}
+.border-1{
+    margin-top: 10px;
+    background-color:  #3A6B35;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 40px;
+    padding: 20px;
+    border-color: #E3B448;
+}
+.guhit{
+    height: 2px;
+    background-color: #92ff5256;
+}
+.li, .pp, .city, .certify, .app, .six, .four, .dot, .one, .two, .three, .dotdot, .datee, .tech, .age, .junior, .Senior  {
+    color: #CBD18F;
+}
+.dotdot{
+    margin-left: 249px; 
+}
+.dot{
+    margin-left: 307px; 
+}
+.age{
+    margin-left: 119px; 
+}
+.one{
+    margin-left: 287px;
+}
+.two{
+    margin-left: 259px;
+}
+.three{
+    margin-left: 286px;
+}
+.Senior{
+    margin-left: 50px;
+}
+.four{
+    margin-left: 158px;
+}
+.tech{
+    margin-left: 120px;
+}
+.junior{
+    margin-left: 52px;
+}
+.city{
+    margin-left: 468px; 
+}
+.six{
+    margin-left: 229px; 
+}
+.certify{
+    text-align: center; 
+}
+.name1{
+    text-align: end; 
+    color: #E3B448;
+}
+.app{
+    margin-left: 1170px;
+    position: relative;bottom: 20px;
+}
+
+/* css for task8.2 */
+
+.span2 {
+    color: #0000FF;
+    font-size: 20px;
+}
+.smoll {
+    color: #000000;
+    font-size: 13px;
+}
+.a-color-1, .a-color-2, .a-color-3 {
+    color: #000000;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*body part*/
+.section-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.b-margin, .b-margin-1{
+    font-size: larger; 
+}
+.Lorem{
+    margin-top: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imagi{
+    float: right;
+}
+.a-color-4 {
+    color: #FF0000;
+    font-weight: bold;
+}
+.section-2 {
+    background-color: #ffa500;
+}
+.MY-VIDEO{
+    font-size: 25px;
+    margin-left: 20px;
+}
+video{
+    width: 1300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+.section-3 {
+    background-color: #FAEBD7;
+    text-align: center;
+}
+.image-1{
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+.b-margin-2{
+    font-size: 23px;
+}
+.p-margin{
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Footer part*/
+ .footer{
+    background-color: #DFE7EA;
+}
+.myy{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.hr{
+    background-color: #0000FF;
+    height: 1px;
+}
+.icon{
+    text-align: right;
+}
+.albano{
+    font-style: italic;
+}
+.webb{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.facebook, .youtube, .twitter, .instagram, .linkedin{
+    padding: 10px;
+}
+
+/* CSS FOR VIDEO */
+
+.vidi{
+    height: 530px;
+    width: fit-content;
+    margin-left: 200px;
+}
+
+/* css for image */
+.goli{
+    margin-right: 90px;
+    font-style: oblique;
+    font-size: xx-large;
+}
+div.gallery {
+    border: 3px solid skyblue;
+    background-color: white;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .eshtml{
+    box-sizing: border-box;
+  }
+  
+  .galle {
+    padding: 0 6px;
+    width: 50%;
+    margin-left: 280px;
+  }
+ 
+ 
+/* css for contacts */
+.bord{
+    margin-left: 25%;
+    margin-top: 75px;
+    border-style: solid;
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(245, 222, 179, 0.935);
+}
+.contacts{
+    letter-spacing: 10px;
+}
+.cont [type=text]{
+    border: none;
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+}
+.cont [type=password]{
+    border: none;
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+}
+.loging{
+    border-style: solid;
+    border-radius: 40px;
+    padding: 5px;
+    width: 10%;
+    margin-left: 45%;
+    background-color: white;
+}
+.loging:hover{
+    background-color: skyblue;
+}
